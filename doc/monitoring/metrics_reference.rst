@@ -708,3 +708,44 @@ Event loop tx thread information:
             -   Event loop prolog time (ms)
         *   -   ``tnt_ev_loop_epilog_time``
             -   Event loop epilog time (ms)
+
+Memtx
+-----
+
+Memtx metrics provide ?
+Also this patch introduces box.stat.memtx.mvcc - the way to
+get memtx mvcc memory statistics.
+
+TXN
+~~~~
+
+?
+
+..  container:: table
+
+    ..  list-table::
+        :widths: 25 75
+        :header-rows: 0
+
+        *   -   ``?``
+            -   ...
+        *   -   ``?``
+            -   .
+
+.. _metrics-reference-vinyl_regulator:
+
+2
+~~~~~~~~~
+
+?
+
+..  container:: table
+
+    ..  list-table::
+        :widths: 25 75
+        :header-rows: 0
+
+        *   -   ``tnt_memtx_...``
+            -   ?.
+        *   -   ``?``
+            -   ?
