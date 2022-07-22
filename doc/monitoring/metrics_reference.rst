@@ -712,12 +712,12 @@ Event loop tx thread information:
 Memtx
 -----
 
-Memtx metrics provide ?
-Also this patch introduces box.stat.memtx.mvcc - the way to
-get memtx mvcc memory statistics.
+Memtx mvcc memory statistics.
+
+..  _metrics-reference-memtx_txn:
 
 TXN
-~~~~
+~~~
 
 ?
 
@@ -727,14 +727,16 @@ TXN
         :widths: 25 75
         :header-rows: 0
 
-        *   -   ``?``
-            -   ...
-        *   -   ``?``
-            -   .
+        *   -   ``tnt_memtx_tx_tnx_statements_max``
+            -   ?
+        *   -   ``tnt_memtx_tx_tnx_statements_avg``
+            -   ?
+        *   -   ``tnt_memtx_tx_tnx_statements_total``
+            -   ?
 
-.. _metrics-reference-vinyl_regulator:
+.. _metrics-reference-memtx_mvcc:
 
-2
+MVCC
 ~~~~~~~~~
 
 ?
@@ -745,7 +747,27 @@ TXN
         :widths: 25 75
         :header-rows: 0
 
-        *   -   ``tnt_memtx_...``
-            -   ?.
-        *   -   ``?``
+        *   -   ``tnt_memtx_tx_mvcc_trackers_max``
+            -   ?
+        *   -   ``tnt_memtx_tx_mvcc_trackers_avg``
+            -   ?
+        *   -   ``tnt_memtx_tx_mvcc_trackers_total``
+            -   ?
+        *   -   ``tnt_memtx_tx_mvcc_conflicts_max``
+            -   ?
+        *   -   ``tnt_memtx_tx_mvcc_conflicts_avg``
+            -   ?
+        *   -   ``tnt_memtx_tx_mvcc_conflicts_total``
+            -   ?
+        *   -   ``tnt_memtx_tx_mvcc_tuples_tracking_stories_count``
+            -   ?
+        *   -   ``tnt_memtx_tx_mvcc_tuples_tracking_stories_total``
+            -   ?
+        *   -   ``tnt_memtx_tx_mvcc_tuples_used_stories_count``
+            -   ?
+        *   -   ``tnt_memtx_tx_mvcc_tuples_used_stories_total``
+            -   ?
+        *   -   ``tnt_memtx_tx_mvcc_tuples_read_view_stories_count``
+            -   ?
+        *   -   ``tnt_memtx_tx_mvcc_tuples_read_view_stories_total``
             -   ?
